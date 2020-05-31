@@ -16,6 +16,11 @@
 		4605AF6B248320100084579E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4605AF69248320100084579E /* LaunchScreen.storyboard */; };
 		4605AF76248320100084579E /* IOSExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4605AF75248320100084579E /* IOSExampleTests.swift */; };
 		4605AF81248320100084579E /* IOSExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4605AF80248320100084579E /* IOSExampleUITests.swift */; };
+		4605AF8F248321570084579E /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4605AF8E248321570084579E /* ImageLoader.swift */; };
+		4605AF93248324FD0084579E /* Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4605AF92248324FD0084579E /* Cover.swift */; };
+		4605AF9524832E500084579E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4605AF9424832E500084579E /* Colors.xcassets */; };
+		4605AF9924832F010084579E /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4605AF9824832F010084579E /* ColorManager.swift */; };
+		4605AF9B248342D60084579E /* SingleSongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4605AF9A248342D60084579E /* SingleSongView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		4605AF7C248320100084579E /* IOSExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4605AF80248320100084579E /* IOSExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSExampleUITests.swift; sourceTree = "<group>"; };
 		4605AF82248320100084579E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4605AF8E248321570084579E /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		4605AF92248324FD0084579E /* Cover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover.swift; sourceTree = "<group>"; };
+		4605AF9424832E500084579E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		4605AF9824832F010084579E /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		4605AF9A248342D60084579E /* SingleSongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSongView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,7 @@
 		4605AF5A2483200F0084579E /* IOSExample */ = {
 			isa = PBXGroup;
 			children = (
+				4605AF8E248321570084579E /* ImageLoader.swift */,
 				4605AF5B2483200F0084579E /* AppDelegate.swift */,
 				4605AF5D2483200F0084579E /* SceneDelegate.swift */,
 				4605AF622483200F0084579E /* ContentView.swift */,
@@ -109,6 +120,10 @@
 				4605AF6C248320100084579E /* Info.plist */,
 				4605AF5F2483200F0084579E /* IOSExample.xcdatamodeld */,
 				4605AF66248320100084579E /* Preview Content */,
+				4605AF92248324FD0084579E /* Cover.swift */,
+				4605AF9424832E500084579E /* Colors.xcassets */,
+				4605AF9824832F010084579E /* ColorManager.swift */,
+				4605AF9A248342D60084579E /* SingleSongView.swift */,
 			);
 			path = IOSExample;
 			sourceTree = "<group>";
@@ -244,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4605AF6B248320100084579E /* LaunchScreen.storyboard in Resources */,
+				4605AF9524832E500084579E /* Colors.xcassets in Resources */,
 				4605AF68248320100084579E /* Preview Assets.xcassets in Resources */,
 				4605AF65248320100084579E /* Assets.xcassets in Resources */,
 			);
@@ -270,8 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4605AF9924832F010084579E /* ColorManager.swift in Sources */,
 				4605AF5C2483200F0084579E /* AppDelegate.swift in Sources */,
+				4605AF93248324FD0084579E /* Cover.swift in Sources */,
+				4605AF9B248342D60084579E /* SingleSongView.swift in Sources */,
 				4605AF612483200F0084579E /* IOSExample.xcdatamodeld in Sources */,
+				4605AF8F248321570084579E /* ImageLoader.swift in Sources */,
 				4605AF632483200F0084579E /* ContentView.swift in Sources */,
 				4605AF5E2483200F0084579E /* SceneDelegate.swift in Sources */,
 			);
